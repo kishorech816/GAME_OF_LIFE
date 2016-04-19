@@ -22,9 +22,9 @@
     </properties>
 
     <scm>
-        <connection>scm:git:https://github.com/kishorech816/game-of-life.git</connection>
-        <developerConnection>scm:git:https://github.com/kishorech816/game-of-life.git</developerConnection>
-        <url>https://github.com/kishorech816/game-of-life.git</url>
+        <connection>scm:git:https://github.com/kishorech816/GAME_OF_LIFE.git</connection>
+        <developerConnection>scm:git:https://github.com/kishorech816/GAME_OF_LIFE.git</developerConnection>
+        <url>https://github.com/kishorech816/GAME_OF_LIFE.git</url>
 		<tag>${project.version}</tag>
     </scm>
 	
