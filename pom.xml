@@ -26,16 +26,21 @@
         <developerConnection>scm:svn:https://kishore:8443/svn/Game_of_Life/trunk</developerConnection>
         <url>scm:svn:https://kishore:8443/svn/Game_of_Life/trunk</url>
     </scm>
-	<distributionManagement>
-  <repository>
-    <id>Releases</id>
-    <url>http://localhost:8081/nexus/content/repositories/releases</url>
-  </repository>
-  <snapshotRepository>
-    <id>Snapshots</id>
-    <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-  </snapshotRepository>
+
+<distributionManagement>
+      <snapshotRepository>
+         <id>Snapshots</id>
+         <name>Release repository</name>
+         <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+      </snapshotRepository>
+	  <repository>
+         <id>Releases</id>
+         <name>Release repository</name>
+         <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+      </repository>
 </distributionManagement>
+	
+
     <build>
         <plugins>
             <plugin>
@@ -117,7 +122,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5</version>
                 <configuration>
-                    <preparationGoals>clean install</preparationGoals>
+                    <tagBase>https://github.com/kishorech816/GAME_OF_LIFE.git</tagBase>
                 </configuration>
             </plugin>
 
