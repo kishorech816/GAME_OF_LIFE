@@ -22,9 +22,9 @@
     </properties>
 
     <scm>
-        <connection>scm:svn:https://kishore:8443/svn/Game_of_Life</connection>
-        <developerConnection>scm:svn:https://kishore:8443/svn/Game_of_Life/trunk</developerConnection>
-        <url>scm:svn:https://kishore:8443/svn/Game_of_Life/trunk</url>
+        <connection>scm:git:https://github.com/kishorech816/GAME_OF_LIFE.git</connection>
+        <developerConnection>scm:git:https://github.com/kishorech816/GAME_OF_LIFE.git</developerConnection>
+        <url>https://github.com/kishorech816/GAME_OF_LIFE.git</url>
     </scm>
 
 <distributionManagement>
